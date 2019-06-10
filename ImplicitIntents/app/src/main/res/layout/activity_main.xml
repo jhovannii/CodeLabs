@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtUri"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edittext_uri" />
+
+    <Button
+        android:id="@+id/btnUri"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="4dp"
+        android:text="@string/button_uri"
+        android:layout_width="wrap_content"
+        android:onClick="openWebsite"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtLocation"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edittext_loc" />
+
+    <Button
+        android:id="@+id/btnLocation"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="4dp"
+        android:text="@string/button_loc"
+        android:layout_width="wrap_content"
+        android:onClick="openLocation"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtShare"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edittext_share" />
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="4dp"
+        android:text="@string/button_share"
+        android:onClick="openShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:text="Open Camera"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="4dp"
+        android:layout_width="match_parent"
+        android:onClick="openCamera"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
